@@ -34,6 +34,7 @@ public static SimpleColor getColor(double x, double y) {
     }
     if (circle2.isPointInCircle(x,y)){
         if(circle1.isPointInCircle(x,y)){
+
             return SimpleColor.GREEN;
         }
         return SimpleColor.BLUE;
